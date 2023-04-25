@@ -82,6 +82,7 @@ setup(
         "python-Levenshtein",
         "Polygon3",
         "shapely",
+        "rapidfuzz<3.0.0",
     ],
     extras_require={"all": ["psutil"]},
     ext_modules=get_extensions(),
